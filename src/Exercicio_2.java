@@ -6,7 +6,7 @@ void main(String[] args) {
     int anoNascimento;
     double salario;
 
-    System.out.println("Digite o nome do funcionário ");
+    System.out.println("Digite o nome do funcionário: ");
     nomeFuncionario = input.nextLine();
 
     System.out.println("Digite o ano de nascimento: ");
@@ -18,6 +18,6 @@ void main(String[] args) {
     System.out.println("=====-FICHA FUNCIONAL-=====");
     System.out.println("Nome: "+nomeFuncionario);
     System.out.println("Ano de nascimento: "+anoNascimento);
-    System.out.println("Salario: R$"+salario);
+    System.out.printf("Salario: R$%.2f\n",salario);
     System.out.println("===========================");
 }
