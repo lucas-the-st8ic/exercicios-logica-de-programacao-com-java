@@ -8,14 +8,16 @@ void main(String[] args) {
     cidade = input.nextLine();
 
     cidade.toUpperCase();
-    cidade.replaceAll(" ","");
     char primeiroCaracter = cidade.toUpperCase().charAt(0);
-    numeroDeCaracteres = cidade.length();
+    numeroDeCaracteres = 0;
 
-    cidade.replaceAll(""," ");
+    for(int caracter = 0; caracter < cidade.length(); caracter++){
+        if(cidade.charAt(caracter) != ' '){
+            numeroDeCaracteres++;
+        }
+    }
 
-    System.out.println("Você mora na cidade " + cidade);
+    System.out.println("Você mora na cidade: " + cidade);
     System.out.println("A primeira letra é: " +primeiroCaracter);
     System.out.println("E contém " +numeroDeCaracteres+ " letras.");
-
 }
