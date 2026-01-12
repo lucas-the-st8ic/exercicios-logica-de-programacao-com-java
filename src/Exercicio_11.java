@@ -8,7 +8,7 @@ void main(String[] args) {
     cidade = input.nextLine();
 
     cidade.toUpperCase();
-    char primeiroCaracter = cidade.toUpperCase().charAt(0);
+    char primeiroCaracter = cidade.charAt(0);
     numeroDeCaracteres = 0;
 
     for(int caracter = 0; caracter < cidade.length(); caracter++){
