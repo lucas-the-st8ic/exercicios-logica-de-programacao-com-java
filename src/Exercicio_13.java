@@ -21,6 +21,6 @@ void main(String[] args) {
     if(media >= 7) {
         System.out.println("Parabéns!!");
     }
-    System.out.printf("SUa média final foi: %.1f \n", media);
+    System.out.printf("Sua média final foi: %.1f \n", media);
 
 }
