@@ -18,6 +18,9 @@ void main(String[] args) {
 
     System.out.println("======RESULTADO=========");
     System.out.printf("As notas do aluno foram %.1f e %.1f \n", primeiraNota, segundaNota);
-    System.out.printf("A média final foi: %.1f \n", media);
+    if(media >= 7) {
+        System.out.println("Parabéns!!");
+    }
+    System.out.printf("SUa média final foi: %.1f \n", media);
 
 }
