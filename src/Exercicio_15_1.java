@@ -1,4 +1,9 @@
 void main(String[] args) {
+    /*
+    *  Verifica se o cliente tem direito
+    * a atendimento preferencial de acordo com
+    * a data de nascimento.*/
+
     Scanner input = new Scanner(System.in);
 
     int anoDeNascimento = 0;

@@ -1,4 +1,8 @@
 void main(String[] args) {
+    /*Se o valor da compra for maior que
+    * 500 reais calcula e aplica um desconto
+    * de 10%*/
+
     Scanner input = new Scanner(System.in);
 
     double valor;
