@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.time.Year;
 
-public class exercicio_17 {
    static void main(String[] args) {
 
        int ano = 2008; //LocalDate.now().getYear();
@@ -31,4 +30,4 @@ public class exercicio_17 {
            System.out.println(ano+ " não é um ano bissexto.");
        }
    }
-}
+

@@ -2,7 +2,6 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.Scanner;
 
-public class Exercicio_16 {
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -27,4 +26,4 @@ public class Exercicio_16 {
             System.out.println("Você precisa se alistar esse ano.");
         }
     }
-}
+
