@@ -18,7 +18,7 @@ public class exercicio_17 {
 
         3. Operador || (OU)
                 -Basta uma das duas condições ser
-                verdadeira para o ano ser bissexto
+                -verdadeira para o ano ser bissexto
 
        * */
        //boolean anoBissexto = ano % 400 == 0 || (ano % 4 == 0 && ano % 100 != 0);
