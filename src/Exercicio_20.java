@@ -36,6 +36,5 @@ void main(String[] args) {
     } else {
         System.out.println("Ingressos disponíveis para a sessão");
     }
-
-
+    
 }
