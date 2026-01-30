@@ -7,7 +7,7 @@ void main(String[] args) {
 
     DateTimeFormatter formato = DateTimeFormatter.ofPattern("HH:mm");
 
-    System.out.println("Agora são- " +horario.format(formato));
+    System.out.println("Agora são- " + horario.format(formato));
     System.out.println(
             "===== FILMES EM CARTAZ =====\n" +
                     "1 - Interestelar\n" +
@@ -23,7 +23,7 @@ void main(String[] args) {
                     "============================"
     );
 
-    System.out.println("Digite o horário do filme (HH:mm):");
+    System.out.print("Digite o horário do filme (HH:mm): ");
     String hora = input.nextLine();
 
     System.out.println();
@@ -31,9 +31,11 @@ void main(String[] args) {
 
     System.out.println(horarioDoFilme);
 
-    if (horarioDoFilme.isAfter(horario)) {
+    if (horarioDoFilme.isBefore(horario) || horarioDoFilme.equals(horario)) {
         System.out.println("Vendas para a sessão encerradas");
     } else {
         System.out.println("Ingressos disponíveis para a sessão");
     }
+
+
 }
