@@ -18,5 +18,5 @@ void main(String[] args) {
     } else if (primeiroNumero == segundoNumero) {
         System.out.println("Não há necessidade de ordenar os números, eles são iguais.");
     }
-    
+
 }
