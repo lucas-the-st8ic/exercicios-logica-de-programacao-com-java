@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercicio_28 {
+
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -79,4 +79,4 @@ public class Exercicio_28 {
                 System.out.printf("Em épocas assim mantenha o produto em %.2f ", precoProduto);
         }
     }
-}
+

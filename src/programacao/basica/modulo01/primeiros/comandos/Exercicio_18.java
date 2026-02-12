@@ -1,7 +1,3 @@
-import org.w3c.dom.ls.LSOutput;
-
-import javax.sound.midi.Soundbank;
-
 void main(String[] args) {
     Scanner input = new Scanner(System.in);
 

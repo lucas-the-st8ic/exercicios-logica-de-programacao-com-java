@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
