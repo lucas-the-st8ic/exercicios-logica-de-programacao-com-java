@@ -2,7 +2,7 @@ package programacao.basica.modulo03.repeticoes;
 
 import java.util.Scanner;
 
-public class RealizandoContagens {
+public class Exercicio_29 {
     /*Solicita ao utilizador um valor inicial,
     um valor final e um incremento e realiza
     uma contagem a partir destes dados.
