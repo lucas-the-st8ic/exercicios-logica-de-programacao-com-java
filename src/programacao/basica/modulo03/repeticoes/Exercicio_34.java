@@ -28,6 +28,6 @@ public class Exercicio_34 {
         double mediaImpares = (double) somaImpares / totalDeImpares;
 
         System.out.printf("Você digitou %d números pares.\nE a média entre eles é %.2f.", totalDePares, mediaPares);
-        System.out.printf("Você digitou %d números pares.\\nE a média entre eles é %.2f.", totalDeImpares, mediaImpares);
+        System.out.printf("Você digitou %d números ímpares.\nE a média entre eles é %.2f.", totalDeImpares, mediaImpares);
     }
 }
