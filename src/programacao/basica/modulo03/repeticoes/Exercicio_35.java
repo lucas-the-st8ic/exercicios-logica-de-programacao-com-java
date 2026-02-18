@@ -65,6 +65,6 @@ public class Exercicio_35 {
         Thread.sleep(2000);
         System.out.println("Ao todo temos, " +totalDeHomensAcimaDoPeso+
                 pluralOuSingularM + " e " +totalDeMulheresAcimaDoPeso+
-                pluralOuSIngularF+ " acima \ndo peso de referência.");
+                pluralOuSIngularF+ " acima\ndo peso de referência.");
     }
 }
