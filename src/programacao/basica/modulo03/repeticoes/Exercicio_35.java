@@ -21,7 +21,7 @@ public class Exercicio_35 {
         double peso;
         int totalDeHomensAcimaDoPeso = 0, totalDeMulheresAcimaDoPeso = 0;
         String pluralOuSingularM;
-        String pluralOuSIngularF;
+        String pluralOuSingularF;
 
         System.out.print("Quantas pessoas você deseja cadastrar? ");
         totalDePessoas = input.nextInt();
@@ -60,11 +60,11 @@ public class Exercicio_35 {
 
         pluralOuSingularM = (totalDeHomensAcimaDoPeso <= 1) ? " Homem" : " Homens";
 
-        pluralOuSIngularF = (totalDeMulheresAcimaDoPeso <= 1) ? " Mulher" : " Mulheres";
+        pluralOuSingularF = (totalDeMulheresAcimaDoPeso <= 1) ? " Mulher" : " Mulheres";
         System.out.println("CALCULANDO RESULTADO...");
         Thread.sleep(2000);
         System.out.println("Ao todo temos, " +totalDeHomensAcimaDoPeso+
                 pluralOuSingularM + " e " +totalDeMulheresAcimaDoPeso+
-                pluralOuSIngularF+ " acima\ndo peso de referência.");
+                pluralOuSingularF+ " acima\ndo peso de referência.");
     }
 }
