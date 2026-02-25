@@ -3,6 +3,8 @@ package programacao.basica.modulo03.repeticoes;
 import java.util.Scanner;
 
 public class Exercicio_38 {
+
+    //Solução utilizando Max_Value e Min_Value
     static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -16,11 +18,11 @@ public class Exercicio_38 {
 
         int idade;
 
-        int idadeHomemMaisNovo = 0;
-        int idadeHomemMaisVelho = 0;
+        int idadeHomemMaisNovo = Integer.MAX_VALUE;
+        int idadeHomemMaisVelho = Integer.MIN_VALUE;
 
-        int idadeDaMulherMaisNova = 0;
-        int idadeDaMulherMaisVelha = 0;
+        int idadeDaMulherMaisNova = Integer.MAX_VALUE;
+        int idadeDaMulherMaisVelha = Integer.MIN_VALUE;
 
         int totalDeHomens = 0;
         int totalDeMulheres = 0;
@@ -43,24 +45,24 @@ public class Exercicio_38 {
 
                 if(idade < idadeHomemMaisNovo){
                     idadeHomemMaisNovo = idade;
-                    nomeDoHomemMaisVelho = nome;
+                    nomeDoHomemMaisNovo = nome;
                 }
 
                 if(idade > idadeHomemMaisVelho){
                     idadeHomemMaisVelho = idade;
-                    nomeDoHomemMaisNovo = nome;
+                    nomeDoHomemMaisVelho = nome;
                 }
             } else if(sexo.equals("F")){
                 totalDeMulheres++;
 
                 if(idade < idadeDaMulherMaisNova){
                     idadeDaMulherMaisNova = idade;
-                    nomeDoHomemMaisVelho = nome;
+                    nomeDaMulherMaisNova = nome;
                 }
 
                 if(idade > idadeDaMulherMaisVelha){
                     idadeDaMulherMaisVelha = idade;
-                    nomeDoHomemMaisNovo = nome;
+                    nomeDaMulherMaisVelha= nome;
                 }
             } else {
                 System.out.println("Sexo inválido. Digite M ou F.");
