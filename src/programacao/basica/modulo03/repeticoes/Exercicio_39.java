@@ -9,10 +9,10 @@ public class Exercicio_39 {
         int numero = 0;
         int soma = 0;
         int totalValores = 0;
-        double media = 0;
+        double media = 0.0;
         int maiorValor = 0;
 
-      
+
         media = (double) soma / totalValores;
 
         System.out.println("==============================================");
