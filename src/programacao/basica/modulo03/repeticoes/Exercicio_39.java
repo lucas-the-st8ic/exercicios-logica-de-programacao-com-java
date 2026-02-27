@@ -14,7 +14,6 @@ public class Exercicio_39 {
 
         System.out.println("============================================================");
         while(true) {
-
             System.out.println("Digite 9999 para encerrar o programa");
             System.out.print((totalValores + 1) + "° Valor: ");
             numero = input.nextInt();
