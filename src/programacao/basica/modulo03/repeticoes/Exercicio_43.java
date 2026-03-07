@@ -16,7 +16,7 @@ public class Exercicio_43 {
             totalDeValores++;
 
             System.out.print("Digite o " +totalDeValores+
-                    "° número:");
+                    "° número: ");
             numero = input.nextInt();
 
             System.out.print("Quer continuar? [S/N]:");
