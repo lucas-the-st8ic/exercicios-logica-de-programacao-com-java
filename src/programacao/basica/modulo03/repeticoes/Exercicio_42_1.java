@@ -55,7 +55,7 @@ public class Exercicio_42_1 {
             if (continuar.equalsIgnoreCase("N")) {
                 break;
             }
-            
+
         }
 
         mediaSalarialHomens = somaSalarialHomens /(double)totalDeHomens;
