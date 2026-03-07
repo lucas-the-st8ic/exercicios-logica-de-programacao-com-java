@@ -27,6 +27,7 @@ public class Exercicio_43 {
 
             } else {
                 if (menorValorImpar == 0) {
+
                     menorValorImpar = numero;
 
                 } else if (numero < menorValorImpar) {
@@ -37,6 +38,11 @@ public class Exercicio_43 {
 
         } while(opcao.equalsIgnoreCase("S"));
 
-        System.out.println("");
+        System.out.println("========== RESULTADOS ==========");
+        System.out.println("Ao todo, você digitou " +totalDeValores+
+                " numeros.");
+        System.out.println("Você digitou " +qtdNumerosPares+
+                " números pares.");
+        System.out.println("O menor valor ímpar digitado foi o " +menorValorImpar);
     }
 }
