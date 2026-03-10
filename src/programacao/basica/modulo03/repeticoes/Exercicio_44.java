@@ -15,11 +15,11 @@ public class Exercicio_44 {
         int menorValor = 0;
         int maiorValor = 0 ;
         String opcao = "";
-
+        String pluralOuSingular = " vez ";
         do {
             totalDeValores++;
 
-            numero = random.nextInt(25) + 1;
+            numero = random.nextInt(50) + 1;
 
             System.out.print("O " +totalDeValores+
                     "° valor sorteado foi: " +numero);
@@ -56,8 +56,11 @@ public class Exercicio_44 {
         +somaDosValores);
         System.out.println("O menor valor foi " +menorValor+
                 " e o maior valor foi " +maiorValor);
+        if (repeticaoNumeroCinco > 1) {
+            pluralOuSingular = " vezes. ";
+        }
         System.out.println("O valor 5 foi sorteado " +repeticaoNumeroCinco+
-                " vezes.");
+                pluralOuSingular);
         System.out.println("------------------------------------------------");
     }
 }
